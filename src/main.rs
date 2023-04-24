@@ -19,8 +19,7 @@ fn main() {
             let asqr: f64 = a.powi(2);
             let bsqr: f64 = b.powi(2);
             let csqr: f64 = asqr+bsqr;
-            let sqrtc: f64 = csqr;
-            let sqrtc: f64 = sqrtc.sqrt();
+            let sqrtc: f64 = csqr.sqrt();
             println!("C is equal to {sqrtc}");
             println!("Thank you for using pythrsolve!");
 
